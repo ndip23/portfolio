@@ -85,13 +85,22 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="relative border-l-2 border-gray-100 ml-3">
+          <div className="relative border-l-2 border-gray-100 ml-3 space-y-12">
+            
             <TimelineItem 
               title="Faculty of Engineering and Technology — University of Buea"
               date="Bachelor of Engineering in Software Engineering (2023 — 2027)"
               description="Final-year student focusing on full-stack development, system architecture, networking, and software engineering principles. 
               Strong interest in building scalable systems and real-world applications."
             />
+
+            <TimelineItem 
+              title="Nelson Mandela Bilingual Comprehensive College"
+              date="Ordinary Level (2015 — 2019) | Advanced Level (2020 — 2022)"
+              description="Completed both Ordinary and Advanced Level education with a strong academic foundation in science and technology-related subjects, 
+              developing analytical and problem-solving skills that support my software engineering journey."
+            />
+
           </div>
         </section>
 
