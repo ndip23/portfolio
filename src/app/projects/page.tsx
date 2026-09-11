@@ -5,6 +5,46 @@ import { Eye, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "G-WASH NG",
+    desc: "Doorstep car wash, cleaning & laundry marketplace with live matching, tracking & Paystack escrow.",
+    tag: "Marketplace",
+    img: "/images/gwash.png",
+    live: "https://g-wash-ngl.vercel.app/",
+    github: "https://github.com/Otuu02/g_wash_ngl",
+  },
+  {
+    title: "Bidora (AI Bid Copilot)",
+    desc: "AI-powered tender procurement & subcontracting intelligence SaaS engine for winning enterprise bids.",
+    tag: "AI / SaaS",
+    img: "/images/aibid.png",
+    live: "https://ai-bid-frontend.vercel.app/",
+    github: "https://github.com/ndip23/AI-Bid",
+  },
+  {
+    title: "Mascode Lab",
+    desc: "Software engineering & creative digital company building web, mobile, SaaS and AI solutions.",
+    tag: "Agency",
+    img: "/images/mascode.png",
+    live: "https://www.mascodelab.com/",
+    github: "https://github.com/ndip23/mascode",
+  },
+  {
+    title: "SentinelGov AI",
+    desc: "Workforce risk monitoring & payroll integrity anomaly detection platform for ministries and government.",
+    tag: "GovTech / AI",
+    img: "/images/sentinelgov.png",
+    live: "https://sentinelgove-ai.vercel.app/",
+    github: "https://github.com/ndip23/payroll-ai",
+  },
+  {
+    title: "Abiba Pressing",
+    desc: "Modern bilingual dry cleaning & laundry service platform with digital catalog and automated booking.",
+    tag: "Commercial",
+    img: "/images/abiba.svg",
+    live: "#",
+    github: "https://github.com/ndip23/abibia-pressing",
+  },
+  {
     title: "PressFlow (PressMark)",
     desc: "Multi-tenant SaaS platform with subscriptions & admin system.",
     tag: "SaaS",
@@ -59,14 +99,6 @@ const projects = [
     tag: "UI/UX",
     img: "/images/carshop.png",
     live: "https://cpromark.site",
-    github: "#",
-  },
-  {
-    title: "Car Inspection System",
-    desc: "Vehicle inspection & compliance tracking platform.",
-    tag: "Enterprise",
-    img: "/images/inspection.jpg",
-    live: "#",
     github: "#",
   },
   {
@@ -127,11 +159,12 @@ export default function ProjectsPage() {
                   <div className="flex gap-3">
 
                     {/* Live Link */}
-                    {project.live && (
+                    {project.live && project.live !== "#" && (
                       <a
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`View live website for ${project.title}`}
                         className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-black shadow-xl hover:scale-110 transition"
                       >
                         <Eye size={20} />
@@ -139,11 +172,12 @@ export default function ProjectsPage() {
                     )}
 
                     {/* GitHub Link */}
-                    {project.github && (
+                    {project.github && project.github !== "#" && (
                       <a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`View GitHub repository for ${project.title}`}
                         className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-black shadow-xl hover:scale-110 transition"
                       >
                         <Github size={20} />
