@@ -3,18 +3,21 @@ import { motion } from "framer-motion";
 
 const skills = [
   { name: "React", level: "Expert", icon: "https://cdn.simpleicons.org/react/61DAFB" },
+  { name: "Flutter", level: "Mobile", icon: "https://cdn.simpleicons.org/flutter/02569B" },
+  { name: "Dart", level: "Language", icon: "https://cdn.simpleicons.org/dart/0175C2" },
+  { name: "React Native", level: "Mobile", icon: "https://cdn.simpleicons.org/react/61DAFB" },
+  { name: "Firebase", level: "Cloud/Auth", icon: "https://cdn.simpleicons.org/firebase/FFCA28" },
   { name: "Node.js", level: "Senior", icon: "https://cdn.simpleicons.org/nodedotjs/339933" },
   { name: "Next.js", level: "Frontend", icon: "https://cdn.simpleicons.org/nextdotjs/000000" },
-  { name: "C++", level: "Engine", icon: "https://cdn.simpleicons.org/cplusplus/00599C" },
+  { name: "C++", level: "Systems", icon: "https://cdn.simpleicons.org/cplusplus/00599C" },
+  { name: "Python", level: "Backend/AI", icon: "https://cdn.simpleicons.org/python/3776AB" },
   { name: "JavaScript", level: "Expert", icon: "https://cdn.simpleicons.org/javascript/F7DF1E" },
   { name: "TypeScript", level: "Expert", icon: "https://cdn.simpleicons.org/typescript/3178C6" },
   { name: "Tailwind", level: "Design", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
-  { name: "HTML5", level: "Expert", icon: "https://cdn.simpleicons.org/html5/E34F26" },
-  { name: "CSS3", level: "Expert", icon: "https://cdn.simpleicons.org/css3/1572B6" }, // Fixed Link
   { name: "MongoDB", level: "Database", icon: "https://cdn.simpleicons.org/mongodb/47A248" },
   { name: "PostgreSQL", level: "SQL DB", icon: "https://cdn.simpleicons.org/postgresql/4169E1" },
+  { name: "Docker", level: "DevOps", icon: "https://cdn.simpleicons.org/docker/2496ED" },
   { name: "GitHub", level: "Version", icon: "https://cdn.simpleicons.org/github/181717" },
-  { name: "Figma", level: "Design", icon: "https://cdn.simpleicons.org/figma/F24E1E" },
 ];
 
 export default function TechGrid() {

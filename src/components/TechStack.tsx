@@ -2,9 +2,10 @@ import { motion } from "framer-motion";
 
 export default function TechStack() {
   const stacks = [
-    { name: "Frontend", tools: ["React", "Next.js", "Tailwind", "Framer Motion"] },
-    { name: "Backend", tools: ["Node.js", "Express", "MongoDB", "Redis"] },
-    { name: "Low-Level", tools: ["C", "C++", "Embedded Systems", "Assembly"] }
+    { name: "Frontend", tools: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"] },
+    { name: "Mobile", tools: ["Flutter", "Dart", "React Native", "Firebase", "Google Maps SDK"] },
+    { name: "Backend & Cloud", tools: ["Node.js", "Express", "Python", "MongoDB", "PostgreSQL", "Docker"] },
+    { name: "Systems & Low-Level", tools: ["C++", "C", "REST APIs", "Git / GitHub", "Linux"] }
   ];
 
   return (

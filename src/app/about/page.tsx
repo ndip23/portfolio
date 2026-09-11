@@ -25,9 +25,10 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-8 text-xl text-gray-500 leading-relaxed">
-            I am a full-stack developer specializing in the MERN stack and C++ systems. 
-            I build scalable backend architectures and high-performance applications, 
-            bridging the gap between intuitive user interfaces and efficient system design.
+            I am a full-stack and mobile developer specializing in Flutter, Dart, the MERN stack, 
+            Python, and C++ systems. I build scalable backend architectures, high-performance applications, 
+            and seamless cross-platform mobile apps, bridging the gap between intuitive user interfaces 
+            and efficient system design.
           </p>
         </header>
 
@@ -55,11 +56,11 @@ export default function AboutPage() {
 
             {/* Freelancer */}
             <TimelineItem 
-              title="Freelancer — Full-Stack Developer"
+              title="Freelancer — Full-Stack & Mobile Developer"
               date="January 2023 — Present"
-              description="Designed and developed custom web applications including e-commerce platforms, management systems, 
-              and SaaS solutions. Built scalable REST APIs, handled database architecture, and implemented authentication systems. 
-              Also developed a mobile stock management and billing application using React Native and Firebase."
+              description="Designed and engineered custom web & mobile applications including on-demand service marketplaces (Flutter, Firebase & Paystack), 
+              e-commerce platforms, and enterprise SaaS solutions. Built scalable REST APIs, real-time tracking systems, and secure authentication flows 
+              across mobile (Flutter & React Native) and web environments."
             />
 
             {/* Chatakk */}

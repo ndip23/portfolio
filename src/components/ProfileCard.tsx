@@ -17,12 +17,12 @@ export default function ProfileCard() {
           </h1>
 
           <p className="text-blue-600 font-bold text-[10px] tracking-[0.25em] uppercase mt-4">
-            Full Stack Developer
+            Full Stack & Mobile Developer
           </p>
 
           <p className="text-gray-500 text-sm mt-4 leading-relaxed max-w-xs">
-            Building scalable systems, SaaS platforms, and high-performance applications 
-            with MERN stack and C++.
+            Building scalable systems, SaaS platforms, cross-platform mobile apps (Flutter & React Native),
+            and high-performance backend architectures with MERN, Python and C++.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function ProfileCard() {
 
           <InfoItem 
             icon={<Laptop className="w-4 h-4 text-[#1D1D1F]" />}
-            text="MERN Stack & C++ Systems"
+            text="Web, Mobile & C++ Systems"
           />
 
           <InfoItem 
