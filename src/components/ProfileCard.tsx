@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Laptop, Globe2, MapPin } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Laptop, Globe2, MapPin, FileDown } from "lucide-react";
 
 export default function ProfileCard() {
   return (
@@ -57,8 +57,8 @@ export default function ProfileCard() {
 
         </div>
 
-        {/* Quick Action Button */}
-        <div className="mt-8">
+        {/* Quick Action Buttons */}
+        <div className="mt-8 flex flex-col sm:flex-row lg:flex-col gap-3">
           <motion.a
             href="mailto:nojong23@gmail.com?subject=Project%20Inquiry%20-%20Software%20Development"
             whileHover={{ scale: 1.02 }}
@@ -67,6 +67,18 @@ export default function ProfileCard() {
           >
             <Mail className="w-4 h-4" />
             Let's Work Together
+          </motion.a>
+
+          <motion.a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            className="w-full py-3 px-6 bg-white hover:bg-gray-50 text-[#1D1D1F] border border-gray-200/80 rounded-2xl font-semibold text-sm flex items-center justify-center gap-2 shadow-sm transition-all"
+          >
+            <FileDown className="w-4 h-4 text-blue-600" />
+            Download CV / Resume
           </motion.a>
         </div>
       </div>
