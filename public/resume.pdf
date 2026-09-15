@@ -1,0 +1,131 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 5 0 R /Resources 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 6 0 R /Resources 7 0 R >>
+endobj
+5 0 obj
+<< /Length 5489 >>
+stream
+0.145 0.388 0.921 rg
+40 808 515 4 re f
+BT /F2 20 Tf 0.058 0.090 0.165 rg 40 782 Td (NDIP SAMUEL AGBOR OJONG) Tj ET
+BT /F2 11 Tf 0.145 0.388 0.921 rg 40 766 Td (Senior Full-Stack & Mobile Software Engineer  \\(Flutter - React - Node.js\\)) Tj ET
+BT /F1 8.5 Tf 0.35 0.40 0.48 rg 40 750 Td (Douala, Cameroon  |  +237 679 267 153  |  nojong23@gmail.com) Tj ET
+BT /F1 8.5 Tf 0.145 0.388 0.921 rg 40 738 Td (Portfolio: portfolio-ndip.vercel.app   |   GitHub: github.com/ndip23   |   LinkedIn: ndip-samuel) Tj ET
+0.85 0.88 0.94 RG 1 w 40 726 m 555 726 l S
+BT /F2 11 Tf 0.058 0.090 0.165 rg 40 710 Td (PROFESSIONAL SUMMARY) Tj ET
+0.145 0.388 0.921 RG 2 w 40 704 m 95 704 l S
+BT /F1 9 Tf 0.20 0.25 0.33 rg 40 688 Td (Performance-driven Mobile & Full-Stack Software Engineer with deep expertise in Flutter & Dart,) Tj ET
+BT /F1 9 Tf 0.20 0.25 0.33 rg 40 676 Td (cross-platform mobile architectures, and scalable cloud backends. Proven track record of architecting) Tj ET
+BT /F1 9 Tf 0.20 0.25 0.33 rg 40 664 Td (production Flutter applications utilizing Clean Architecture, reactive state management \(BLoC/Provider\),) Tj ET
+BT /F1 9 Tf 0.20 0.25 0.33 rg 40 652 Td (background GPS tracking, and Paystack fintech payment gateways. Experienced taking products from 0) Tj ET
+BT /F1 9 Tf 0.20 0.25 0.33 rg 40 640 Td (to production across Android, Web, and Cloud systems with over 2,500+ commercial deliveries handled.) Tj ET
+0.85 0.88 0.94 RG 1 w 40 624 m 555 624 l S
+BT /F2 11 Tf 0.058 0.090 0.165 rg 40 608 Td (TECHNICAL ARSENAL) Tj ET
+0.145 0.388 0.921 RG 2 w 40 602 m 95 602 l S
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 590 Td (Mobile Development: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Flutter \(Advanced\), Dart, Clean Architecture, BLoC, Provider, React Native, Push \(FCM\)) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 577 Td (Maps & Geolocation: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Google Maps Platform, OpenStreetMap \(OSM\), Live GPS Provider Tracking, Distance Matrix) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 564 Td (Fintech & Payments: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Paystack Mobile SDK, Payment Webhooks, Escrow Holding Systems, OTP Verification) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 551 Td (Frontend Engineering: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (React.js, Next.js \(App Router\), TypeScript, JavaScript \(ESNext\), Tailwind CSS, Framer Motion) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 538 Td (Backend & Systems: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Node.js, Express.js, Python \(FastAPI\), C++ Systems, RESTful APIs, JWT Auth, WebSockets) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 525 Td (Databases & Cloud: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Firebase \(Firestore, Auth, Functions\), PostgreSQL, MongoDB, Prisma ORM, Docker, AWS) Tj ET
+BT /F2 8.5 Tf 0.058 0.090 0.165 rg 40 512 Td (Mobile DevOps: ) Tj /F1 8.5 Tf 0.25 0.30 0.38 rg (Android Keystore Signing, Automated PowerShell Builds \(build_release.ps1\), ProGuard, .aab) Tj ET
+0.85 0.88 0.94 RG 1 w 40 495 m 555 495 l S
+BT /F2 11 Tf 0.058 0.090 0.165 rg 40 479 Td (WORK EXPERIENCE) Tj ET
+0.145 0.388 0.921 RG 2 w 40 473 m 95 473 l S
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 461 Td (Full-Stack & Mobile Developer \\(Freelance\\)) Tj /F1 8.5 Tf 0.4 0.45 0.5 rg (  |  Douala, Cameroon) Tj ET
+BT /F3 8.5 Tf 0.145 0.388 0.921 rg 430 461 Td (January 2023 - Present) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 448 Td (??? Engineered G-WASH NG in Flutter using Clean Architecture \(Data/Domain/Presentation\), cutting redundancy by 40%.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 436.5 Td (??? Embedded dual map engines \(Google Maps & OSM\) for dynamic provider dispatch and real-time route tracing.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 425 Td (??? Implemented Paystack financial escrow system holding customer funds until secure OTP service completion.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 413.5 Td (??? Authored automated PowerShell release scripts \(build_release.ps1\) for keystore signing and App Bundle \(.aab\) generation.) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 398 Td (Software Engineering Intern - Kanyuy Marketing) Tj ET
+BT /F3 8.5 Tf 0.145 0.388 0.921 rg 415 398 Td (April 2025 - December 2025) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 385 Td (??? Developed responsive client web interfaces in Next.js and optimized backend REST API endpoints in Node.js.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 373.5 Td (??? Diagnosed and patched critical production bugs across multi-device viewports, ensuring 100% mobile compatibility.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 362 Td (??? Participated in agile development sprints, CI/CD automated deployments, and API integration testing with Postman.) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 346.5 Td (Frontend Developer - Chatakk Delivery) Tj ET
+BT /F3 8.5 Tf 0.145 0.388 0.921 rg 420 346.5 Td (January 2023 - March 2025) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 333.5 Td (??? Architected 4 interconnected React dashboards \(User, Driver, Admin, Enterprise\) supporting 150+ users & 2,500+ deliveries.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 322 Td (??? Integrated Google Maps Distance Matrix & Directions APIs for automated courier dispatch and dynamic zone pricing.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 310.5 Td (??? Optimized state re-renders and network caching, delivering fluid performance across 3G/4G cellular networks.) Tj ET
+BT /F1 8 Tf 0.5 0.55 0.6 rg 260 25 Td (Page 1 of 2  |  Ndip Samuel) Tj ET
+
+endstream
+endobj
+6 0 obj
+<< /Length 4755 >>
+stream
+0.145 0.388 0.921 rg 40 808 515 4 re f
+BT /F2 11 Tf 0.058 0.090 0.165 rg 40 782 Td (FEATURED PRODUCTION PROJECTS) Tj ET
+0.145 0.388 0.921 RG 2 w 40 776 m 130 776 l S
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 756 Td (1. G-WASH NG - On-Demand Doorstep Mobile Marketplace) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 745 Td (Flutter, Dart, Firebase, Paystack SDK, Google Maps & OSM, Clean Architecture) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 734 Td (??? On-demand vehicle detailing marketplace with live GPS provider matching, distance routing, and sound popups.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 723.5 Td (??? Automated Paystack escrow pre-payment system releasing customer funds only upon OTP physical verification.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 713 Td (??? Multi-channel alerts via Twilio SMS, automated SMTP transactional receipts, and Firebase Cloud Messaging.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 702.5 Td (Live: g-wash-ngl.vercel.app   |   Code: github.com/Otuu02/g_wash_ngl) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 688.5 Td (2. Bidora \(AI Bid Copilot\) - Tender Procurement SaaS) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 677.5 Td (Next.js \(App Router\), Node.js, Prisma ORM, PostgreSQL, OpenAI API, Tailwind CSS) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 666.5 Td (??? AI copilot analyzing complex tender specifications and scoring enterprise capability matrices for winning bids.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 656 Td (??? Subcontracting intelligence engine analyzing African and global public/private procurement databases.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 645.5 Td (??? Automated certification compliance checklist generation and real-time vendor fit scoring.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 635 Td (Live: ai-bid-frontend.vercel.app   |   Code: github.com/ndip23/AI-Bid) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 621 Td (3. SentinelGov AI - Government Payroll Integrity Engine) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 610 Td (Python, FastAPI, Next.js, Anomaly Detection Algorithms, Tailwind CSS) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 599 Td (??? High-throughput risk monitoring system scanning ministry payroll registries for ghost workers and duplicate payouts.) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 588.5 Td (??? Real-time anomaly dashboard with severity scoring, audit trails, and departmental compliance reporting.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 578 Td (Live: sentinelgove-ai.vercel.app   |   Code: github.com/ndip23/payroll-ai) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 564 Td (4. PressFlow \(PressMark\) - Multi-Tenant SaaS Platform) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 553 Td (MERN Stack \(MongoDB, Express.js, React, Node.js\), Tailwind CSS) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 542 Td (??? Multi-tenant software platform with isolated tenant database schemas, automated subscription billing, and super-admin metrics.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 531.5 Td (Live: pressmark.site) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 517.5 Td (5. Mascode Lab - Digital Engineering Agency Platform) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 506.5 Td (Next.js, TypeScript, Tailwind CSS, Framer Motion) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 495.5 Td (??? High-performance corporate site and academy platform showcasing digital products, client services, and student training curricula.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 485 Td (Live: mascodelab.com   |   Code: github.com/ndip23/mascode) Tj ET
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 471 Td (6. Fitness Dashboard - Cross-Platform Health Application) Tj ET
+BT /F3 8 Tf 0.145 0.388 0.921 rg 40 460 Td (Flutter, React Native, Local Storage, QR Verification Engine, Tailwind) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 45 449 Td (??? Workout and nutrition tracking application featuring activity rings, daily calorie burn analytics, and digital QR check-in badges.) Tj ET
+BT /F1 8 Tf 0.35 0.40 0.48 rg 45 438.5 Td (Featured on portfolio-ndip.vercel.app) Tj ET
+0.85 0.88 0.94 RG 1 w 40 420.5 m 555 420.5 l S
+BT /F2 11 Tf 0.058 0.090 0.165 rg 40 404.5 Td (EDUCATION) Tj ET
+0.145 0.388 0.921 RG 2 w 40 398.5 m 95 398.5 l S
+BT /F2 9.5 Tf 0.058 0.090 0.165 rg 40 388.5 Td (Bachelor of Engineering \\(B.Eng.\\) in Software Engineering) Tj ET
+BT /F3 8.5 Tf 0.145 0.388 0.921 rg 445 388.5 Td (2023 - 2027) Tj ET
+BT /F1 8.5 Tf 0.35 0.40 0.48 rg 40 376.5 Td (Faculty of Engineering and Technology - University of Buea) Tj ET
+BT /F1 8.5 Tf 0.25 0.30 0.38 rg 40 364.5 Td (Key Coursework: Mobile Communications & Computing, Distributed Systems, Software Architecture, Cryptography, OOP System Design.) Tj ET
+BT /F1 8 Tf 0.5 0.55 0.6 rg 260 25 Td (Page 2 of 2  |  Ndip Samuel) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Font <<
+  /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+  /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+  /F3 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+>> >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000010 00000 n 
+0000000062 00000 n 
+0000000128 00000 n 
+0000000241 00000 n 
+0000000354 00000 n 
+0000005901 00000 n 
+0000010714 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+10950
+%%EOF
