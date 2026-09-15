@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const navLinks = [
+  const navLinks: { name: string; href: string; external?: boolean }[] = [
     { name: "Home", href: "/" },
     { name: "Works", href: "/projects" },
     { name: "About", href: "/about" },
-    
+    { name: "Resume", href: "/resume" },
   ];
 
   return (
@@ -18,14 +18,20 @@ export default function Navbar() {
         {navLinks.map((link) => {
           const isActive = pathname === link.href;
           return (
-            <Link key={link.name} href={link.href} className="relative px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-all">
+            <Link 
+              key={link.name} 
+              href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
+              className="relative px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-all"
+            >
               {isActive && (
                 <motion.div 
                   layoutId="active-pill"
                   className="absolute inset-0 bg-white shadow-sm rounded-full -z-10"
                 />
               )}
-              <span className={isActive ? "text-[#1D1D1F]" : "text-gray-500"}>
+              <span className={isActive ? "text-[#1D1D1F]" : "text-gray-500 hover:text-[#1D1D1F]"}>
                 {link.name}
               </span>
             </Link>
