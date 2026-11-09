@@ -28,7 +28,7 @@ $docRels = @'
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
   <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
-  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://portfolio-ndip.vercel.app" TargetMode="External"/>
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://ndip-samuel.vercel.app" TargetMode="External"/>
   <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://github.com/ndip23" TargetMode="External"/>
   <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink" Target="https://www.linkedin.com/in/ndip-samuel-1b0175294" TargetMode="External"/>
 </Relationships>
@@ -72,7 +72,7 @@ $doc = @'
     </w:p>
     <w:p>
       <w:pPr><w:jc w:val="center"/><w:spacing w:after="200"/></w:pPr>
-      <w:hyperlink r:id="rId2"><w:r><w:rPr><w:color w:val="2563EB"/><w:u w:val="single"/><w:sz w:val="18"/></w:rPr><w:t>Portfolio: portfolio-ndip.vercel.app</w:t></w:r></w:hyperlink>
+      <w:hyperlink r:id="rId2"><w:r><w:rPr><w:color w:val="2563EB"/><w:u w:val="single"/><w:sz w:val="18"/></w:rPr><w:t>Portfolio: ndip-samuel.vercel.app</w:t></w:r></w:hyperlink>
       <w:r><w:rPr><w:sz w:val="18"/><w:color w:val="475569"/></w:rPr><w:t>  |  </w:t></w:r>
       <w:hyperlink r:id="rId3"><w:r><w:rPr><w:color w:val="2563EB"/><w:u w:val="single"/><w:sz w:val="18"/></w:rPr><w:t>GitHub: github.com/ndip23</w:t></w:r></w:hyperlink>
       <w:r><w:rPr><w:sz w:val="18"/><w:color w:val="475569"/></w:rPr><w:t>  |  </w:t></w:r>

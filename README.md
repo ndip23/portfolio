@@ -11,7 +11,7 @@
 
 **React · Next.js · Node.js · TypeScript · Flutter · AI Integrations**
 
-[Live Portfolio](https://portfolio-ndip.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/ndip-samuel-1b0175294) • [GitHub](https://github.com/ndip23) • [Email Me](mailto:nojong23@gmail.com)
+[Live Portfolio](https://ndip-samuel.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/ndip-samuel-1b0175294) • [GitHub](https://github.com/ndip23) • [Email Me](mailto:nojong23@gmail.com)
 
 </div>
 

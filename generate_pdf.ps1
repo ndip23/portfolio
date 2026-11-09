@@ -26,7 +26,7 @@ function Build-Pdf {
     
     # Contacts
     [void]$p1.AppendLine("BT /F1 8.5 Tf 0.35 0.40 0.48 rg 40 742 Td (Douala, Cameroon \(GMT+1\)  |  +237 679 267 153  |  nojong23@gmail.com) Tj ET")
-    [void]$p1.AppendLine("BT /F1 8.5 Tf 0.145 0.388 0.921 rg 40 730 Td (Portfolio: portfolio-ndip.vercel.app   |   GitHub: github.com/ndip23   |   LinkedIn: ndip-samuel) Tj ET")
+    [void]$p1.AppendLine("BT /F1 8.5 Tf 0.145 0.388 0.921 rg 40 730 Td (Portfolio: ndip-samuel.vercel.app   |   GitHub: github.com/ndip23   |   LinkedIn: ndip-samuel) Tj ET")
 
     # Section 1: Professional Summary
     [void]$p1.AppendLine("0.85 0.88 0.94 RG 1 w 40 720 m 555 720 l S")

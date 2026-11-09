@@ -84,8 +84,8 @@ export default function ResumePage() {
             </div>
 
             <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2 text-xs sm:text-sm font-medium text-blue-600">
-              <a href="https://portfolio-ndip.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
-                <Globe size={14} /> Portfolio
+              <a href="https://ndip-samuel.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
+                <Globe size={14} /> ndip-samuel.vercel.app
               </a>
               <a href="https://github.com/ndip23" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
                 <Github size={14} /> GitHub

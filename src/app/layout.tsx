@@ -3,33 +3,35 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio-ndip.vercel.app"),
+  metadataBase: new URL("https://ndip-samuel.vercel.app"),
   title: {
     default: "Ndip Samuel — Full-Stack & Mobile Software Engineer",
     template: "%s | Ndip Samuel",
   },
   description:
-    "Software Engineer specializing in Flutter, Dart, React, Next.js, Node.js, Python, and C++ systems. Explore production SaaS, logistics marketplaces, and AI tools.",
+    "Full-Stack & Mobile Software Engineer (React, Next.js, Node.js, TypeScript, Flutter, AI Integrations). Lead System Developer & System Architect at Mascode.",
   keywords: [
     "Ndip Samuel",
     "Software Engineer",
     "Full-Stack Developer",
     "Mobile Developer",
+    "System Architect",
     "Flutter",
     "Dart",
     "React",
     "Next.js",
     "Node.js",
+    "TypeScript",
     "Python",
     "Cameroon",
     "Douala",
   ],
-  authors: [{ name: "Ndip Samuel", url: "https://portfolio-ndip.vercel.app" }],
+  authors: [{ name: "Ndip Samuel", url: "https://ndip-samuel.vercel.app" }],
   creator: "Ndip Samuel",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://portfolio-ndip.vercel.app/",
+    url: "https://ndip-samuel.vercel.app/",
     title: "Ndip Samuel — Full-Stack & Mobile Software Engineer",
     description:
       "Building scalable SaaS systems, on-demand mobile marketplaces, and high-performance backend architectures.",
