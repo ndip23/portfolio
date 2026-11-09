@@ -17,7 +17,7 @@ export default function ProfileCard() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
           <span className="text-[11px] font-bold text-emerald-700 tracking-wide uppercase">
-            Available for Hire
+            Available for Remote Roles
           </span>
         </div>
 
@@ -27,13 +27,12 @@ export default function ProfileCard() {
             Ndip <br /> Samuel
           </h1>
 
-          <p className="text-blue-600 font-bold text-[10px] tracking-[0.25em] uppercase mt-4">
-            Full Stack & Mobile Developer
+          <p className="text-blue-600 font-bold text-[10px] tracking-[0.2em] uppercase mt-4">
+            Full-Stack & Mobile Software Engineer
           </p>
 
           <p className="text-gray-500 text-sm mt-4 leading-relaxed max-w-xs">
-            Building scalable systems, SaaS platforms, cross-platform mobile apps (Flutter & React Native),
-            and high-performance backend architectures with MERN, Python and C++.
+            Lead System Developer & System Architect at Mascode. Nearly 4 years shipping 8+ production web, mobile, multi-tenant SaaS & AI apps with React, Next.js, Node.js, TypeScript & Flutter.
           </p>
         </div>
 
@@ -42,17 +41,17 @@ export default function ProfileCard() {
 
           <InfoItem 
             icon={<Laptop className="w-4 h-4 text-[#1D1D1F]" />}
-            text="Web, Mobile & C++ Systems"
+            text="React · Next.js · Node · Flutter · AI"
           />
 
           <InfoItem 
             icon={<Globe2 className="w-4 h-4 text-blue-600" />}
-            text="Available for Remote & Onsite"
+            text="Remote Ready (EU & US Overlap)"
           />
 
           <InfoItem 
             icon={<MapPin className="w-4 h-4 text-red-500" />}
-            text="Douala, Cameroon"
+            text="Douala, Cameroon (GMT+1)"
           />
 
         </div>

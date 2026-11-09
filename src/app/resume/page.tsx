@@ -33,7 +33,7 @@ export default function ResumePage() {
 
             <a
               href="/resume.docx"
-              download="Ndip_Samuel_Resume.docx"
+              download="Ndip_Samuel_Agbor_Ojong_CV.docx"
               className="px-4 py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs sm:text-sm font-semibold rounded-xl flex items-center gap-2 transition"
             >
               <FileText size={15} /> Word (.docx)
@@ -41,7 +41,7 @@ export default function ResumePage() {
 
             <a
               href="/resume.pdf"
-              download="Ndip_Samuel_Resume.pdf"
+              download="Ndip_Samuel_Agbor_Ojong_CV.pdf"
               className="px-5 py-2 bg-[#1D1D1F] hover:bg-black text-white text-xs sm:text-sm font-semibold rounded-xl flex items-center gap-2 shadow-sm transition"
             >
               <Download size={15} /> PDF
@@ -63,14 +63,17 @@ export default function ResumePage() {
             <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-[#0F172A]">
               NDIP SAMUEL AGBOR OJONG
             </h1>
-            <p className="text-blue-600 font-bold text-sm sm:text-base mt-2">
-              Senior Full-Stack &amp; Mobile Software Engineer (Flutter • React • Node.js)
+            <p className="text-[#0F172A] font-bold text-base sm:text-lg mt-1.5">
+              Full-Stack &amp; Mobile Software Engineer
+            </p>
+            <p className="text-blue-600 font-semibold text-xs sm:text-sm mt-1">
+              React · Next.js · Node.js · TypeScript · Flutter · AI Integrations
             </p>
 
             {/* Quick Contact Line */}
             <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-xs sm:text-sm text-gray-500">
               <span className="flex items-center gap-1.5">
-                <MapPin size={14} className="text-red-500" /> Douala, Cameroon
+                <MapPin size={14} className="text-red-500" /> Douala, Cameroon (GMT+1)
               </span>
               <a href="tel:+237679267153" className="flex items-center gap-1.5 hover:text-blue-600">
                 <Phone size={14} className="text-emerald-500" /> +237 679 267 153
@@ -82,13 +85,13 @@ export default function ResumePage() {
 
             <div className="mt-3 flex flex-wrap gap-x-6 gap-y-2 text-xs sm:text-sm font-medium text-blue-600">
               <a href="https://portfolio-ndip.vercel.app" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
-                <Globe size={14} /> portfolio-ndip.vercel.app
+                <Globe size={14} /> Portfolio
               </a>
               <a href="https://github.com/ndip23" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
-                <Github size={14} /> github.com/ndip23
+                <Github size={14} /> GitHub
               </a>
               <a href="https://www.linkedin.com/in/ndip-samuel-1b0175294" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
-                <Linkedin size={14} /> linkedin.com/in/ndip-samuel
+                <Linkedin size={14} /> LinkedIn
               </a>
             </div>
           </header>
@@ -99,94 +102,175 @@ export default function ResumePage() {
               Professional Summary
             </h2>
             <p className="text-sm leading-relaxed text-gray-600">
-              Performance-driven Mobile &amp; Full-Stack Software Engineer with deep expertise in Flutter &amp; Dart, 
-              cross-platform mobile architectures, and scalable cloud backends. Proven track record of architecting 
-              production Flutter applications utilizing Clean Architecture, reactive state management (BLoC/Provider), 
-              background GPS tracking, and Paystack fintech payment gateways. Experienced in taking products from zero 
-              to production deployment across Android, Web, and Cloud systems with over 2,500+ commercial transactions handled.
+              Full-stack and mobile software engineer with nearly 4 years of experience shipping production web and mobile products end to end, from payments and live GPS tracking to multi-tenant SaaS and AI features. Currently{" "}
+              <span className="font-semibold text-[#0F172A]">Lead System Developer &amp; System Architect at Mascode</span>, leading system design and a 7-person development team. Built and maintained 8+ production applications serving real users, including a delivery marketplace with 2,500+ deliveries. Strongest in React, Next.js, TypeScript, Node.js and Flutter; seeking a full-time remote engineering role.
             </p>
           </section>
 
-          {/* Section: Technical Arsenal */}
+          {/* Section: Technical Skills */}
           <section className="py-6 border-b border-gray-100">
             <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-4">
-              Technical Arsenal
+              Technical Skills
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs sm:text-sm">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs sm:text-sm">
               <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
-                <span className="font-bold text-[#0F172A] block mb-1">📱 Mobile Development</span>
-                <span className="text-gray-600">Flutter (Advanced), Dart, Clean Architecture, BLoC, Provider, React Native, Method Channels, Push (FCM).</span>
+                <span className="font-bold text-[#0F172A] block mb-1">Frontend</span>
+                <span className="text-gray-600">React.js, Next.js, TypeScript, JavaScript, Tailwind CSS</span>
               </div>
               <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
-                <span className="font-bold text-[#0F172A] block mb-1">🗺️ Maps &amp; Geolocation</span>
-                <span className="text-gray-600">Google Maps SDK, OpenStreetMap (OSM), Geocoding, Real-time Driver Tracking, Distance Matrix APIs.</span>
+                <span className="font-bold text-[#0F172A] block mb-1">Backend</span>
+                <span className="text-gray-600">Node.js, Express.js, FastAPI, Python, REST API design</span>
               </div>
               <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
-                <span className="font-bold text-[#0F172A] block mb-1">💳 Fintech &amp; Payments</span>
-                <span className="text-gray-600">Paystack Mobile SDK, Payment Webhooks, Escrow Pre-payment Holding, OTP Security Verification.</span>
+                <span className="font-bold text-[#0F172A] block mb-1">Mobile</span>
+                <span className="text-gray-600">Flutter, Dart, BLoC, Clean Architecture</span>
               </div>
               <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
-                <span className="font-bold text-[#0F172A] block mb-1">💻 Frontend &amp; Backend</span>
-                <span className="text-gray-600">React.js, Next.js (App Router), TypeScript, Node.js, Express, Python (FastAPI), C++ Systems, REST APIs.</span>
+                <span className="font-bold text-[#0F172A] block mb-1">Databases</span>
+                <span className="text-gray-600">MongoDB, PostgreSQL, Prisma, Firebase</span>
+              </div>
+              <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
+                <span className="font-bold text-[#0F172A] block mb-1">Integrations</span>
+                <span className="text-gray-600">Paystack, OpenAI, Google Maps, OpenStreetMap, Socket.io, OTP verification</span>
+              </div>
+              <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
+                <span className="font-bold text-[#0F172A] block mb-1">Engineering</span>
+                <span className="text-gray-600">System architecture, authentication, RBAC, payment workflows, real-time systems, multi-tenant design, production debugging</span>
               </div>
               <div className="bg-gray-50/80 p-3.5 rounded-xl border border-gray-100 md:col-span-2">
-                <span className="font-bold text-[#0F172A] block mb-1">☁️ Databases, Cloud &amp; DevOps</span>
-                <span className="text-gray-600">Firebase (Firestore, Auth, Cloud Functions), PostgreSQL, MongoDB, Prisma ORM, Docker, Android Keystore &amp; Release Automation (build_release.ps1).</span>
+                <span className="font-bold text-[#0F172A] block mb-1">Tools, Delivery &amp; Cloud</span>
+                <span className="text-gray-600">Git, GitHub, Postman, CI/CD, Vercel, Android release automation (PowerShell) · Familiar with: AWS, Docker</span>
               </div>
             </div>
           </section>
 
-          {/* Section: Work Experience */}
+          {/* Section: Professional Experience */}
           <section className="py-6 border-b border-gray-100">
             <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-6">
-              Work Experience
+              Professional Experience
             </h2>
 
-            <div className="space-y-6">
-              {/* Role 1 */}
+            <div className="space-y-7">
+              {/* Role 1: Mascode */}
               <div>
                 <div className="flex flex-wrap items-baseline justify-between gap-1">
                   <h3 className="font-bold text-[#0F172A] text-base">
-                    Full-Stack &amp; Mobile Developer (Freelance)
+                    Lead System Developer &amp; System Architect — Mascode
                   </h3>
-                  <span className="text-xs font-bold text-blue-600">January 2023 — Present</span>
+                  <span className="text-xs font-bold text-blue-600">Sep 2026 — Present</span>
                 </div>
-                <p className="text-xs text-gray-400 mb-2">Douala, Cameroon • Remote &amp; Onsite</p>
-                <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-600">
-                  <li>Engineered G-WASH NG Mobile App in Flutter implementing Clean Architecture separation (Data, Domain, Presentation) and state management, reducing code redundancy by 40%.</li>
-                  <li>Embedded dual map engines (Google Maps SDK &amp; OpenStreetMap) for live provider dispatch, dynamic distance calculations, and real-time route tracing.</li>
-                  <li>Implemented Paystack financial escrow system holding customer pre-payments until secure OTP verification upon service completion.</li>
-                  <li>Configured Android Keystore signing and automated PowerShell release compilation pipelines (build_release.ps1) for Google Play App Bundles (.aab).</li>
+                <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-600 mt-2">
+                  <li>Lead system design and architecture for a 7-person team: service boundaries, data models, API contracts and deployment approach.</li>
+                  <li>Guide the team through code reviews, task breakdown and delivery planning.</li>
+                  <li>Contributed to the design of <strong>SandClip</strong> (sandclip.com), a video generation product built on an asynchronous video-processing system with background workers and job queues.</li>
+                  <li>Designed a six-stage video-processing pipeline with defined inputs, outputs and execution timeouts, and structured the worker and queue architecture that coordinates background tasks.</li>
+                  <li>Defined job-status tracking and completion handling, and documented pipeline transitions and processing logic to support reliability, maintainability and troubleshooting.</li>
+                  <li>Delivered the website for Abibia Pressing, a pressing business.</li>
                 </ul>
               </div>
 
-              {/* Role 2 */}
+              {/* Role 2: Spektralsoft */}
+              <div>
+                <div className="flex flex-wrap items-baseline justify-between gap-1">
+                  <h3 className="font-bold text-[#0F172A] text-base">
+                    Software Developer — Spektralsoft
+                  </h3>
+                  <span className="text-xs font-bold text-blue-600">Jun 2026 — Nov 2026</span>
+                </div>
+                <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-600 mt-2">
+                  <li>Built <strong>Bidora AI</strong>, an AI-powered tender discovery and intelligence SaaS that helps contractors and SMEs across Africa find procurement opportunities, check eligibility, assess bid competitiveness and prepare proposals (React, TypeScript, REST APIs, AI integration). Live at <a href="https://ai-bid-frontend.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ai-bid-frontend.vercel.app</a>.</li>
+                  <li>Built user-facing interfaces for tender discovery, analysis and opportunity tracking.</li>
+                  <li>Implemented workflows for AI-assisted tender explanations, eligibility assessments, win-probability insights, compliance checklists and proposal drafting.</li>
+                  <li>Integrated a multi-source tender discovery workflow covering international development institutions and public procurement sources.</li>
+                  <li>Contributed to a validation pipeline that processed 108 new unique tenders through 24 data connectors, reaching 216% of the initial 50-tender daily target.</li>
+                </ul>
+              </div>
+
+              {/* Role 3: Freelance */}
+              <div>
+                <div className="flex flex-wrap items-baseline justify-between gap-1">
+                  <h3 className="font-bold text-[#0F172A] text-base">
+                    Full-Stack &amp; Mobile Developer — Freelance
+                  </h3>
+                  <span className="text-xs font-bold text-blue-600">Douala, Cameroon | Jan 2023 — Present</span>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 mt-1.5 mb-3">
+                  Design, build, deploy and maintain production web, mobile, SaaS and marketplace applications for real clients, handling requirements, architecture, development, release and ongoing support end to end.
+                </p>
+
+                <div className="space-y-3 pl-3 border-l-2 border-blue-100">
+                  <div>
+                    <h4 className="text-xs sm:text-sm font-bold text-[#0F172A]">
+                      G-WASH NG, delivery marketplace <span className="text-blue-600 font-semibold">(Flutter, Firebase, Paystack)</span>
+                    </h4>
+                    <ul className="list-disc list-outside pl-4 space-y-1 text-xs sm:text-sm text-gray-600 mt-1">
+                      <li>Built and run a live marketplace that has completed 2,500+ deliveries, covering dispatch workflows, live GPS tracking, route tracing and OTP-verified handovers.</li>
+                      <li>Implemented Paystack escrow payment workflows, authentication, RBAC, admin dashboards and REST APIs.</li>
+                      <li>Integrated Google Maps and OpenStreetMap for tracking, routing and distance logic.</li>
+                      <li>Structured the app with Clean Architecture and BLoC, cutting code redundancy by about 40% through reusable components.</li>
+                      <li>Automated Android release workflows, including signing and .aab generation, with PowerShell.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs sm:text-sm font-bold text-[#0F172A]">
+                      PressFlow / PressMark, multi-tenant SaaS <span className="text-blue-600 font-semibold">(MongoDB, Express, React, Node.js)</span>
+                    </h4>
+                    <ul className="list-disc list-outside pl-4 space-y-1 text-xs sm:text-sm text-gray-600 mt-1">
+                      <li>Designed tenant-aware data isolation for a laundry and pressing management platform.</li>
+                      <li>Built customer, order, pricing, payment, subscription and notification modules with role-based access control.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs sm:text-sm font-bold text-[#0F172A]">
+                      SentinelGovAI, payroll and workforce anomaly detection <span className="text-blue-600 font-semibold">(FastAPI, Next.js)</span>
+                    </h4>
+                    <ul className="list-disc list-outside pl-4 space-y-1 text-xs sm:text-sm text-gray-600 mt-1">
+                      <li>Built FastAPI data processing and Next.js analyst dashboards for reviewing workforce and payroll anomalies.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="text-xs sm:text-sm font-bold text-[#0F172A]">
+                      School &amp; Report Card Management System and BIFRC <span className="text-blue-600 font-semibold">(React, Node.js)</span>
+                    </h4>
+                    <ul className="list-disc list-outside pl-4 space-y-1 text-xs sm:text-sm text-gray-600 mt-1">
+                      <li>Delivered a production school system used by 200+ students and 25+ teachers, with remote marks entry, automated results, report cards and controlled printing.</li>
+                      <li>Built and maintain BIFRC, a financial/business platform supporting 50+ users and $50K+ in transactions, with transaction workflows and responsive interfaces.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Role 4: Kanyuy Marketing */}
               <div>
                 <div className="flex flex-wrap items-baseline justify-between gap-1">
                   <h3 className="font-bold text-[#0F172A] text-base">
                     Software Engineering Intern — Kanyuy Marketing
                   </h3>
-                  <span className="text-xs font-bold text-blue-600">April 2025 — December 2025</span>
+                  <span className="text-xs font-bold text-blue-600">Apr 2025 — Dec 2025</span>
                 </div>
                 <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-600 mt-2">
-                  <li>Developed responsive client web interfaces with Next.js and optimized backend REST APIs in Node.js, slashing request latency across high-traffic hours.</li>
-                  <li>Diagnosed and resolved critical production UI bugs across multi-device mobile viewports, achieving 100% responsive cross-platform compatibility.</li>
-                  <li>Participated in sprint planning, CI/CD automated deployments, and API integration testing with Postman.</li>
+                  <li>Developed and maintained Next.js and Node.js applications used in production.</li>
+                  <li>Diagnosed and fixed production bugs, improving reliability and mobile responsiveness.</li>
+                  <li>Worked in an Agile team using Git, CI/CD pipelines and Postman-based API testing.</li>
+                  <li>Integrated frontend and backend features and shipped them through the team&apos;s release process.</li>
                 </ul>
               </div>
 
-              {/* Role 3 */}
+              {/* Role 5: Chatakk Delivery */}
               <div>
                 <div className="flex flex-wrap items-baseline justify-between gap-1">
                   <h3 className="font-bold text-[#0F172A] text-base">
                     Frontend Developer — Chatakk Delivery
                   </h3>
-                  <span className="text-xs font-bold text-blue-600">January 2023 — March 2025</span>
+                  <span className="text-xs font-bold text-blue-600">Jan 2023 — Mar 2025</span>
                 </div>
                 <ul className="list-disc list-outside pl-4 space-y-1.5 text-xs sm:text-sm text-gray-600 mt-2">
-                  <li>Architected 4 interconnected React dashboards (Customer, Driver Dispatch, Admin, Enterprise) supporting 150+ daily active users and 2,500+ completed deliveries.</li>
-                  <li>Integrated Google Maps Distance Matrix &amp; Directions APIs for automated courier matching and dynamic pricing.</li>
-                  <li>Reduced state re-rendering overhead and optimized dashboard performance over low-bandwidth mobile networks.</li>
+                  <li>Built four React dashboards (User, Driver, Admin, Enterprise) supporting 150+ users.</li>
+                  <li>Integrated Google Distance Matrix for automated dispatch calculations and zone-based pricing.</li>
+                  <li>Optimized performance for 3G/4G networks so the dashboards stay usable on slower connections.</li>
                 </ul>
               </div>
             </div>
@@ -195,79 +279,151 @@ export default function ResumePage() {
           {/* Section: Featured Projects */}
           <section className="py-6 border-b border-gray-100">
             <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-6">
-              Featured Production Projects
+              Featured Projects
             </h2>
 
             <div className="space-y-4">
               <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
-                    1. G-WASH NG — Doorstep Mobile Marketplace
+                    G-WASH NG — Production Delivery Marketplace
                   </h4>
                   <a href="https://g-wash-ngl.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
                     Live Demo <ExternalLink size={12} />
                   </a>
                 </div>
                 <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
-                  Flutter, Dart, Firebase, Paystack SDK, Google Maps &amp; OSM, Clean Architecture
+                  Flutter · Firebase · Paystack · Google Maps · OpenStreetMap
                 </p>
                 <p className="text-xs text-gray-600">
-                  Cross-platform mobile app with live GPS tracking, provider matching, in-app sound popups, and automated escrow releasing payment upon OTP confirmation.
+                  Marketplace with 2,500+ deliveries, live GPS tracking, route tracing, dispatch, OTP verification and escrow payments. Built with Clean Architecture and an automated Android release pipeline.
                 </p>
               </div>
 
               <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
-                    2. Bidora (AI Bid Copilot) — Procurement SaaS Platform
+                    Bidora AI — AI-Powered Tender Discovery &amp; Intelligence SaaS
                   </h4>
                   <a href="https://ai-bid-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
-                    Live Demo <ExternalLink size={12} />
+                    Live <ExternalLink size={12} />
                   </a>
                 </div>
                 <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
-                  Next.js (App Router), Node.js, Prisma ORM, PostgreSQL, OpenAI API
+                  React · TypeScript · REST APIs · AI Integration
                 </p>
                 <p className="text-xs text-gray-600">
-                  Enterprise AI copilot automating tender document ingestion, capability match scoring, and subcontracting opportunities for winning enterprise bids.
+                  Helps contractors and SMEs across Africa find tenders, check eligibility, assess win probability and draft proposals. Its validation pipeline processed 108 unique tenders through 24 data connectors in a day, 216% of the 50-tender target.
                 </p>
               </div>
 
               <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
-                    3. SentinelGov AI — Government Payroll Anomaly Engine
+                    SandClip — Asynchronous Video Processing System
+                  </h4>
+                  <a href="https://sandclip.com" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
+                    sandclip.com <ExternalLink size={12} />
+                  </a>
+                </div>
+                <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
+                  Background Workers · Job Queues · Pipeline Orchestration
+                </p>
+                <p className="text-xs text-gray-600">
+                  Six-stage video-processing pipeline with execution timeouts, job-status tracking and documented workflow transitions.
+                </p>
+              </div>
+
+              <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
+                    PressFlow / PressMark — Multi-Tenant SaaS
+                  </h4>
+                  <a href="https://pressmark.site" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
+                    pressmark.site <ExternalLink size={12} />
+                  </a>
+                </div>
+                <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
+                  MongoDB · Express · React · Node.js
+                </p>
+                <p className="text-xs text-gray-600">
+                  Laundry and pressing management SaaS covering customers, orders, pricing, payments, subscriptions, RBAC, notifications and tenant-aware data.
+                </p>
+              </div>
+
+              <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
+                    School &amp; Report Card Management System
+                  </h4>
+                </div>
+                <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
+                  React · Node.js · RBAC
+                </p>
+                <p className="text-xs text-gray-600">
+                  Production system used by 200+ students and 25+ teachers, with remote marks entry, automated results, report cards and controlled printing.
+                </p>
+              </div>
+
+              <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
+                    SentinelGovAI — Payroll &amp; Workforce Anomaly Detection
                   </h4>
                   <a href="https://sentinelgove-ai.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
                     Live Demo <ExternalLink size={12} />
                   </a>
                 </div>
                 <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
-                  Python, FastAPI, Next.js, Anomaly Detection Algorithms, Tailwind CSS
+                  FastAPI · Next.js
                 </p>
                 <p className="text-xs text-gray-600">
-                  Institutional workforce risk monitoring system scanning ministries for ghost workers, duplicate disbursements, and salary variances.
+                  Data-analysis platform with FastAPI processing and Next.js dashboards for reviewing workforce and payroll anomalies.
+                </p>
+              </div>
+
+              <div className="p-4 bg-gray-50/60 rounded-xl border border-gray-100">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <h4 className="font-bold text-[#0F172A] text-sm sm:text-base">
+                    BIFRC — Financial/Business Platform
+                  </h4>
+                  <a href="https://bifrc.org" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-blue-600 flex items-center gap-1 hover:underline">
+                    bifrc.org <ExternalLink size={12} />
+                  </a>
+                </div>
+                <p className="text-[11px] font-semibold text-blue-600 mt-0.5 mb-1.5">
+                  React · Node.js · Web Application
+                </p>
+                <p className="text-xs text-gray-600">
+                  Production platform supporting 50+ users and $50K+ in transactions, with transaction workflows, responsive interfaces and ongoing maintenance.
                 </p>
               </div>
             </div>
           </section>
 
           {/* Section: Education */}
-          <section className="pt-6">
+          <section className="py-6 border-b border-gray-100">
             <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-4">
               Education
             </h2>
             <div className="flex flex-wrap items-baseline justify-between gap-1">
               <h3 className="font-bold text-[#0F172A] text-base">
-                Bachelor of Engineering (B.Eng.) in Software Engineering
+                B.Eng. Software Engineering — University of Buea, Cameroon
               </h3>
-              <span className="text-xs font-bold text-blue-600">2023 — 2027</span>
+              <span className="text-xs font-bold text-blue-600">2023 — 2027 (Expected)</span>
             </div>
-            <p className="text-xs sm:text-sm text-gray-500 mt-0.5">
-              Faculty of Engineering and Technology — University of Buea
+            <p className="text-xs text-gray-600 mt-1">
+              Coursework: Software Architecture, Distributed Systems, Web &amp; Mobile Development, Database Systems.
             </p>
-            <p className="text-xs text-gray-500 mt-1">
-              Key Coursework: Mobile Communications &amp; Computing, Distributed Systems, Software Architecture, Cryptography &amp; Network Security, Object-Oriented System Design (C++ / Java).
+          </section>
+
+          {/* Section: Remote Work */}
+          <section className="pt-6">
+            <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-blue-600 mb-2">
+              Remote Work
+            </h2>
+            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+              Available for full-time remote engineering roles. Based in GMT+1 with working-hour overlap for EU and US teams, reliable Starlink internet and backup power, and comfortable working independently and leading work across distributed teams.
             </p>
           </section>
         </motion.div>

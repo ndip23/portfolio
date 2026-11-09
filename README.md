@@ -1,4 +1,4 @@
-# Ndip Samuel — Full-Stack & Mobile Software Engineer
+# Ndip Samuel Agbor Ojong — Full-Stack & Mobile Software Engineer
 
 <div align="center">
 
@@ -6,10 +6,10 @@
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Flutter](https://img.shields.io/badge/Flutter-Mobile-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![C++](https://img.shields.io/badge/C++-Systems-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-**Building scalable SaaS systems, on-demand mobile marketplaces, and high-performance backend architectures.**
+**React · Next.js · Node.js · TypeScript · Flutter · AI Integrations**
 
 [Live Portfolio](https://portfolio-ndip.vercel.app/) • [LinkedIn](https://www.linkedin.com/in/ndip-samuel-1b0175294) • [GitHub](https://github.com/ndip23) • [Email Me](mailto:nojong23@gmail.com)
 
@@ -17,92 +17,83 @@
 
 ---
 
-## ⚡ About Me
+## ⚡ Professional Summary
 
-I am a Software Engineer based in Douala, Cameroon, specializing in full-stack web applications, cross-platform mobile development (Flutter / React Native), and systems programming (C++ / Node.js). 
+Full-stack and mobile software engineer with nearly 4 years of experience shipping production web and mobile products end to end, from payments and live GPS tracking to multi-tenant SaaS and AI features. Currently **Lead System Developer & System Architect at Mascode**, leading system design and a 7-person development team. Built and maintained 8+ production applications serving real users, including a delivery marketplace with 2,500+ deliveries. Strongest in React, Next.js, TypeScript, Node.js, and Flutter; seeking a full-time remote engineering role.
 
-With production experience spanning on-demand logistics, AI-driven procurement engines, multi-tenant SaaS, and government integrity systems, I bridge the gap between user experiences and fault-tolerant system architecture.
-
-* **Core Focus:** High-velocity MVP creation, real-time tracking, escrow pre-payment architectures, and high-performance backend systems.
-* **Available For:** Full-time roles, contract engineering, and startup technical advisory.
+* **Location & Remote Setup:** Douala, Cameroon (`GMT+1`) — EU & US working-hour overlap, reliable Starlink internet, and backup power.
 
 ---
 
-## 🚀 Featured Case Studies & Production Projects
+## 💼 Professional Experience
 
-### 1. [G-WASH NG](https://g-wash-ngl.vercel.app/) — On-Demand Doorstep Marketplace
-* **Category:** Mobile & Web Marketplace (Flutter, Firebase, Paystack)
-* **Highlights:**
-  * Real-time GPS provider matching with distance-based pricing using Google Maps Platform.
-  * Automated pre-payment escrow system holding customer funds until service verification via OTP security code.
-  * Multi-channel notifications via Twilio SMS, Gmail SMTP transactional emails, and in-app sound popups for service providers.
-* **Codebase:** [github.com/Otuu02/g_wash_ngl](https://github.com/Otuu02/g_wash_ngl)
+### 1. Lead System Developer & System Architect — Mascode *(Sep 2026 – Present)*
+* Lead system design and architecture for a 7-person team: service boundaries, data models, API contracts, and deployment approach.
+* Guide the team through code reviews, task breakdown, and delivery planning.
+* Contributed to the design of **SandClip** ([sandclip.com](https://sandclip.com)), a video generation product built on an asynchronous video-processing system with background workers and job queues.
+* Designed a six-stage video-processing pipeline with defined inputs, outputs, and execution timeouts, and structured the worker and queue architecture that coordinates background tasks.
+* Defined job-status tracking and completion handling, and documented pipeline transitions and processing logic.
+* Delivered the website for Abibia Pressing.
 
----
+### 2. Software Developer — Spektralsoft *(Jun 2026 – Nov 2026)*
+* Built **Bidora AI** ([ai-bid-frontend.vercel.app](https://ai-bid-frontend.vercel.app)), an AI-powered tender discovery and intelligence SaaS helping contractors and SMEs across Africa find procurement opportunities, check eligibility, assess bid competitiveness, and prepare proposals (React, TypeScript, REST APIs, AI integration).
+* Implemented workflows for AI-assisted tender explanations, eligibility assessments, win-probability insights, compliance checklists, and proposal drafting.
+* Integrated a multi-source tender discovery workflow covering international development institutions and public procurement sources.
+* Contributed to a validation pipeline that processed 108 new unique tenders through 24 data connectors, reaching **216%** of the initial 50-tender daily target.
 
-### 2. [Bidora (AI Bid Copilot)](https://ai-bid-frontend.vercel.app/) — Tender & Procurement Intelligence
-* **Category:** Enterprise AI / SaaS (Next.js, Node.js, Prisma, PostgreSQL)
-* **Highlights:**
-  * Automated tender document ingestion and scoring against enterprise capability profiles.
-  * Subcontracting intelligence engine analyzing African and global public/private procurement opportunities.
-  * Real-time match scoring (industry alignment, geographic presence, certification checklist).
-* **Codebase:** [github.com/ndip23/AI-Bid](https://github.com/ndip23/AI-Bid)
+### 3. Full-Stack & Mobile Developer — Freelance *(Jan 2023 – Present | Douala, Cameroon)*
+Design, build, deploy, and maintain production web, mobile, SaaS, and marketplace applications end to end:
+* **G-WASH NG** *(Flutter, Firebase, Paystack)*: Live marketplace with 2,500+ deliveries, live GPS tracking, Google Maps & OpenStreetMap routing, OTP-verified handovers, Paystack escrow workflows, Clean Architecture & BLoC (~40% less code redundancy), and PowerShell Android release automation.
+* **PressFlow / PressMark** *(MongoDB, Express, React, Node.js)*: Multi-tenant laundry and pressing management SaaS with tenant-aware data isolation and RBAC.
+* **SentinelGovAI** *(FastAPI, Next.js)*: FastAPI data processing and Next.js analyst dashboards for reviewing workforce and payroll anomalies.
+* **School & Report Card Management System & BIFRC** *(React, Node.js)*: School system used by 200+ students and 25+ teachers; BIFRC financial/business platform supporting 50+ users and $50K+ in transactions.
 
----
+### 4. Software Engineering Intern — Kanyuy Marketing *(Apr 2025 – Dec 2025)*
+* Developed and maintained Next.js and Node.js applications used in production.
+* Diagnosed and fixed production bugs, improving reliability and mobile responsiveness in an Agile CI/CD workflow.
 
-### 3. [Mascode Lab](https://www.mascodelab.com/) — Engineering & Digital Agency Platform
-* **Category:** Corporate Agency & Academy Platform
-* **Highlights:**
-  * High-performance multi-page platform with sleek typography, custom styling, and responsive design systems.
-  * Showcases client services, digital products, and technology training academy.
-* **Codebase:** [github.com/ndip23/mascode](https://github.com/ndip23/mascode)
-
----
-
-### 4. [SentinelGov AI](https://sentinelgove-ai.vercel.app/) — Government Payroll Integrity Platform
-* **Category:** GovTech & Anomaly Detection (Python, Next.js, FastAPI)
-* **Highlights:**
-  * Automated workforce risk monitoring and payroll anomaly detection across connected ministries.
-  * High-throughput scanning for ghost workers, duplicate disbursements, and salary variance auditing.
-* **Codebase:** [github.com/ndip23/payroll-ai](https://github.com/ndip23/payroll-ai)
+### 5. Frontend Developer — Chatakk Delivery *(Jan 2023 – Mar 2025)*
+* Built four React dashboards (User, Driver, Admin, Enterprise) supporting 150+ users.
+* Integrated Google Distance Matrix for automated dispatch calculations and zone-based pricing; optimized for 3G/4G networks.
 
 ---
 
-### 5. [PressFlow (PressMark)](https://pressmark.site) — Multi-Tenant SaaS Platform
-* **Category:** Full-Stack SaaS (MERN Stack)
-* **Highlights:**
-  * Subscription billing, tenant isolation, and centralized super-admin telemetry dashboard.
+## 🚀 Featured Projects
+
+| Project | Stack | Highlights |
+|---|---|---|
+| **[G-WASH NG](https://g-wash-ngl.vercel.app/)** | Flutter · Firebase · Paystack · Google Maps · OSM | Production delivery marketplace with 2,500+ deliveries, live GPS tracking, OTP verification & escrow payments. |
+| **[Bidora AI](https://ai-bid-frontend.vercel.app/)** | React · TypeScript · REST APIs · AI Integration | AI tender discovery SaaS; validation pipeline processed 108 unique tenders across 24 connectors/day (216% of target). |
+| **[SandClip](https://sandclip.com)** | Background Workers · Job Queues · Orchestration | Six-stage asynchronous video-processing pipeline with execution timeouts and job-status tracking. |
+| **[PressFlow / PressMark](https://pressmark.site)** | MongoDB · Express · React · Node.js | Multi-tenant laundry & pressing SaaS with tenant isolation, subscriptions, RBAC, and notifications. |
+| **School & Report Card System** | React · Node.js · RBAC | Production school system serving 200+ students & 25+ teachers with remote marks entry and controlled printing. |
+| **[SentinelGovAI](https://sentinelgove-ai.vercel.app/)** | FastAPI · Next.js | Payroll & workforce anomaly detection platform with analyst dashboards. |
+| **[BIFRC](https://bifrc.org)** | React · Node.js | Financial/business platform supporting 50+ users and $50K+ in transactions. |
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Skills
 
-| Domain | Technologies |
-|---|---|
-| **Mobile Development** | Flutter, Dart, React Native, Firebase Cloud Messaging, Google Maps SDK, Paystack SDK |
-| **Frontend Engineering** | React 19, Next.js 16 (App Router), TypeScript, JavaScript (ESNext), Tailwind CSS, Framer Motion |
-| **Backend & Cloud** | Node.js, Express, Python (FastAPI/Flask), PostgreSQL, MongoDB, Prisma, Redis, Docker, Vercel |
-| **Systems & Architecture** | C++, C, REST APIs, Microservices, Event-driven architecture, Linux, Git / GitHub |
+* **Frontend:** React.js, Next.js, TypeScript, JavaScript, Tailwind CSS
+* **Backend:** Node.js, Express.js, FastAPI, Python, REST API design
+* **Mobile:** Flutter, Dart, BLoC, Clean Architecture
+* **Databases:** MongoDB, PostgreSQL, Prisma, Firebase
+* **Integrations:** Paystack, OpenAI, Google Maps, OpenStreetMap, Socket.io, OTP verification
+* **Engineering:** System architecture, authentication, RBAC, payment workflows, real-time systems, multi-tenant design, production debugging
+* **Tools & Delivery:** Git, GitHub, Postman, CI/CD, Vercel, Android release automation (PowerShell), AWS, Docker
 
 ---
 
-## 💼 Work History
+## 🎓 Education
 
-* **Freelance Software Engineer** *(2023 — Present)*
-  * Built custom web and mobile applications for international clients across e-commerce, logistics, and fintech.
-  * Designed end-to-end architectures from database schema to automated CI/CD deployments.
-* **Kanyuy Marketing — Software Engineering Intern** *(Apr 2025 — Dec 2025)*
-  * Developed frontend interfaces and scalable backend REST APIs; optimized database queries for production throughput.
-* **Chatakk Delivery — Frontend Developer** *(Jan 2023 — Mar 2025)*
-  * Architected 4 interconnected React dashboards (User, Driver, Admin, Enterprise) supporting 150+ daily active users and 2,500+ completed deliveries.
+* **B.Eng. Software Engineering** — University of Buea, Cameroon *(2023 – 2027 expected)*
+  * Coursework: Software Architecture, Distributed Systems, Web & Mobile Development, Database Systems.
 
 ---
 
 ## 📬 Let's Connect
 
-Looking for a developer to build an MVP, scale your platform, or join your engineering team?
-
 * **Email:** [nojong23@gmail.com](mailto:nojong23@gmail.com)
 * **LinkedIn:** [Ndip Samuel](https://www.linkedin.com/in/ndip-samuel-1b0175294)
 * **GitHub:** [@ndip23](https://github.com/ndip23)
-* **Location:** Douala, Cameroon (Available for Remote & Relocation worldwide)
+* **Location:** Douala, Cameroon (GMT+1 — Available for Full-Time Remote Engineering Roles)

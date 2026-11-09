@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 
 export default function TechStack() {
   const stacks = [
-    { name: "Frontend", tools: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"] },
-    { name: "Mobile", tools: ["Flutter", "Dart", "React Native", "Firebase", "Google Maps SDK"] },
-    { name: "Backend & Cloud", tools: ["Node.js", "Express", "Python", "MongoDB", "PostgreSQL", "Docker"] },
-    { name: "Systems & Low-Level", tools: ["C++", "C", "REST APIs", "Git / GitHub", "Linux"] }
+    { name: "Frontend", tools: ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Framer Motion"] },
+    { name: "Backend & APIs", tools: ["Node.js", "Express.js", "FastAPI", "Python", "REST API Design", "Socket.io"] },
+    { name: "Mobile", tools: ["Flutter", "Dart", "BLoC", "Clean Architecture", "React Native"] },
+    { name: "Databases & Integrations", tools: ["MongoDB", "PostgreSQL", "Prisma", "Firebase", "Paystack", "OpenAI", "Google Maps", "OpenStreetMap"] },
+    { name: "Architecture & Delivery", tools: ["System Architecture", "Multi-Tenant Design", "RBAC", "CI/CD", "Vercel", "PowerShell Automation", "Docker", "AWS"] }
   ];
 
   return (
@@ -15,12 +16,11 @@ export default function TechStack() {
           <div>
             <h2 className="text-5xl font-bold tracking-tighter mb-6">Built for performance.</h2>
             <p className="text-xl text-gray-500 leading-relaxed">
-              From high-level user interfaces to low-level memory management, 
-              I build systems that are as fast as they are beautiful.
+              From system architecture and asynchronous worker pipelines to multi-tenant SaaS and cross-platform mobile apps, I engineer products that scale reliably in production.
             </p>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-10">
             {stacks.map((stack, i) => (
               <div key={i}>
                 <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-4">{stack.name}</h4>
